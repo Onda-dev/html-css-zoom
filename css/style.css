@@ -53,10 +53,12 @@ header {
 .icon.secure {
     color: #67d669;
 }
+
 .header-record {
     justify-content: space-between;
     align-items: center;
 }
+
 .header-view {
     justify-content: flex-end;
 }
