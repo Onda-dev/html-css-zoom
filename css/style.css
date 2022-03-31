@@ -30,6 +30,12 @@ button {
     background-color: transparent;
 }
 
+.red-button {
+    background-color: #a8352e;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-left: auto;
+}
 /*-----------------
     HEADER
 ------------------*/
@@ -75,6 +81,7 @@ main {
     color: white;
     background-color: black;
 }
+
 .cam-container {
     width: 92%;
     margin: auto;
@@ -112,3 +119,48 @@ main {
     margin-right: 5px;
 }
 
+/*-----------------
+    FOOTER
+------------------*/
+footer {
+    /* background-color: lightseagreen; */
+    background-color: #1b1b1b;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col-left, .footer-col-right {
+    width: 20%;
+    /* background-color: lightpink; */
+}
+
+
+.footer-col-left, .footer-col-right, .footer-col-center {
+    padding: 10px 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-col-center {
+    width: 60%;
+    /* background-color: lightskyblue; */
+    justify-content: center;
+}
+
+footer button {
+    color: #a8a8a8;
+}
+
+.big-icon-button {
+    font-size: 3em;
+}
+
+.footer-col-right button {
+    color: white;
+}
