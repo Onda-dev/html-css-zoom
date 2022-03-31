@@ -24,6 +24,7 @@ body {
 button {
     border: none;
     cursor: pointer;
+    color: white;
 }
 .transparent-button {
     background-color: transparent;
@@ -35,15 +36,18 @@ button {
 header {
     background-color: pink;
     /* background-color: #111111; */
-    height: 40px;
+    height: 36px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .header-record, .header-view {
-    height: 100%;
     width: 12%;
     padding: 10px;
     /* background-color: coral; */
@@ -61,4 +65,28 @@ header {
 
 .header-view {
     justify-content: flex-end;
+}
+
+/*-----------------
+    MAIN
+------------------*/
+main {
+    margin-top: 80px;
+}
+.cam-container {
+    width: 92%;
+    margin: auto;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.cam-box {
+    width: calc(98% / 6);
+    height: 160px;
+    background-color: lightsalmon;
+    border-radius: 10px;
 }
