@@ -6,3 +6,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*-----------------
+    TYPOGRAPHY
+------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------
+    COMMONS
+------------------*/
+
+/*-----------------
+    BUTTONS
+------------------*/
+button {
+    border: none;
+    cursor: pointer;
+}
+.transparent-button {
+    background-color: transparent;
+}
+
+/*-----------------
+    HEADER
+------------------*/
+header {
+    background-color: pink;
+    /* background-color: #111111; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-record, .header-view {
+    height: 100%;
+    width: 12%;
+    padding: 10px;
+    /* background-color: coral; */
+    display: flex;
+}
+
+.icon.secure {
+    color: #67d669;
+}
+.header-record {
+    justify-content: space-between;
+    align-items: center;
+}
+.header-view {
+    justify-content: flex-end;
+}
